@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    color:white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.gray{
+    background-color: rgb(70, 69, 69);
+    padding: 10px 20% 0 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.news{
+    background-color: black;
+    width: fit-content;
+    padding: 5px 8px 5px 8px;
+}
+.list{
+    margin: 0 0 15px 15px;
+    /* margin-left:15px;
+    margin-bottom: 15px; */
+}
+li{
+    padding: 5px 0 5px 0;
+}
+.black{
+    background-color: black;
+    padding: 10px 0 10px 0;
+}
+.copyrights,.footermenu,.icons{
+    /* border-style: solid;
+    border-color: white; */
+    width: fit-content;
+    margin: auto;
+}
+.footermenu{
+    padding: 10px 0 10px 0;
+}
+.footermenu a{
+    padding: 0 6px 0 6px;
+}
+@media screen and (max-width:600px){
+    .gray{
+        flex-direction: column;
+    }
+}
